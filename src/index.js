@@ -1,0 +1,28 @@
+import { _generateStyleMap } from './utils';
+import { _validate } from './utils/validation';
+
+const main = (themeConfig, themeKey) => {
+  /**
+   * Generate theme variables and assign values from the given theme config
+   *
+   * @param  {Object} themeConfig  An object containing theme description.
+   * @param  {String} themeKey   A key of an active theme.
+   */
+  _validate(themeConfig, themeKey);
+
+  const map = _generateStyleMap(themeConfig, themeKey);
+
+  if (!this) {
+    return
+  }
+
+  const root = this.document.documentElement;
+
+  for (let key in map) {
+    if (map.hasOwnProperty(key)) {
+      root.style.setProperty(key, map[key])
+    }
+  }
+};
+
+export default main;
