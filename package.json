@@ -1,0 +1,30 @@
+{
+  "name": "theme-variables",
+  "version": "1.0.0",
+  "description": "Theme variables generation plugin",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanislavskiy/theme-variables.git"
+  },
+  "keywords": [
+    "theme",
+    "css",
+    "variables"
+  ],
+  "author": "stanislavsky.corp@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stanislavskiy/theme-variables/issues"
+  },
+  "homepage": "https://github.com/Stanislavskiy/theme-variables#readme",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
