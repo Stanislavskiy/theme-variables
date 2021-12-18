@@ -1,5 +1,5 @@
 {
-  "name": "@stanislavskiy/theme-variables",
+  "name": "theme-variables",
   "version": "1.0.0",
   "description": "Theme variables generation plugin",
   "source": "src/index.js",
