@@ -11,12 +11,7 @@ const main = (themeConfig, themeKey) => {
   _validate(themeConfig, themeKey);
 
   const map = _generateStyleMap(themeConfig, themeKey);
-
-  if (!this) {
-    return
-  }
-
-  const root = this.document.documentElement;
+  const root = document.documentElement;
 
   for (let key in map) {
     if (map.hasOwnProperty(key)) {

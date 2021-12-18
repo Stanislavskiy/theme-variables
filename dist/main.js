@@ -7,7 +7,7 @@ function $parcel$export(e, n, v, s) {
 
 $parcel$defineInteropFlag(module.exports);
 
-$parcel$export(module.exports, "default", () => $349a00930b14e029$export$2e2bcd8739ae039, (v) => $349a00930b14e029$export$2e2bcd8739ae039 = v);
+$parcel$export(module.exports, "default", () => $349a00930b14e029$export$2e2bcd8739ae039);
 const $56172f1930ea069d$export$aacb266d5c99b002 = (themeObject, selectedTheme)=>{
     /**
    * Creates an object where the key matches the name of a CSS variable,
@@ -82,8 +82,7 @@ const $349a00930b14e029$var$main = (themeConfig, themeKey)=>{
    * @param  {String} themeKey   A key of an active theme.
    */ $494bf8388f3514e4$export$721aae4e3ead4833(themeConfig, themeKey);
     const map = $56172f1930ea069d$export$aacb266d5c99b002(themeConfig, themeKey);
-    if (!undefined) return;
-    const root = undefined.document.documentElement;
+    const root = document.documentElement;
     for(let key in map)if (map.hasOwnProperty(key)) root.style.setProperty(key, map[key]);
 };
 var $349a00930b14e029$export$2e2bcd8739ae039 = $349a00930b14e029$var$main;
