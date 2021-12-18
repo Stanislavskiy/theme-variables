@@ -1,7 +1,7 @@
-import { _generateStyleMap } from './utils';
-import { _validate } from './utils/validation';
+import { _generateStyleMap } from '../utils';
+import { _validate } from '../utils/validation';
 
-const main = (themeConfig, themeKey) => {
+const plugin = (themeConfig, themeKey) => {
   /**
    * Generate theme variables and assign values from the given theme config
    *
@@ -20,4 +20,4 @@ const main = (themeConfig, themeKey) => {
   }
 };
 
-export default main;
+export default plugin;

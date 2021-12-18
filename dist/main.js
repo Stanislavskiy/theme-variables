@@ -74,7 +74,7 @@ const $494bf8388f3514e4$export$3592c43e6916be21 = (themeObject)=>{
 };
 
 
-const $349a00930b14e029$var$main = (themeConfig, themeKey)=>{
+const $63b1be36419a75a6$var$plugin = (themeConfig, themeKey)=>{
     /**
    * Generate theme variables and assign values from the given theme config
    *
@@ -85,7 +85,10 @@ const $349a00930b14e029$var$main = (themeConfig, themeKey)=>{
     const root = document.documentElement;
     for(let key in map)if (map.hasOwnProperty(key)) root.style.setProperty(key, map[key]);
 };
-var $349a00930b14e029$export$2e2bcd8739ae039 = $349a00930b14e029$var$main;
+var $63b1be36419a75a6$export$2e2bcd8739ae039 = $63b1be36419a75a6$var$plugin;
+
+
+var $349a00930b14e029$export$2e2bcd8739ae039 = $63b1be36419a75a6$export$2e2bcd8739ae039;
 
 
 //# sourceMappingURL=main.js.map
